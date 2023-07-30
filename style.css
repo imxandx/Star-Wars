@@ -223,12 +223,12 @@ footer {
     }
 
     .ale {
-        margin-left: 5%;
+        margin-left: 0%;
     }
 
 }
 
-@media (max-width: 440px) {
+@media (max-width: 433px) {
     .buttons {
         width: 300px;
         min-width: 0;
@@ -236,7 +236,7 @@ footer {
     }
 
     .ale {
-        margin-left: 5%;
+        margin-left: 3%;
     }
 
     button {
