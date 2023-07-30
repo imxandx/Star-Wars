@@ -68,10 +68,10 @@ li:hover {
     color: gold;
 }
 
-.social-media {
+.ale {
+    height: 90px;
     margin-left: 25%;
-    width: 130px;
-    min-width: 130px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -171,6 +171,8 @@ footer {
     font-weight: 500;
 }
 
+/*Responsividade*/
+
 @media (max-width: 1280px) {
     .main-container {
         height: auto;
@@ -216,6 +218,14 @@ footer {
         height: 470px;
     }
 
+    h2 {
+        margin-left: 5%;
+    }
+
+    .ale {
+        margin-left: 5%;
+    }
+
 }
 
 @media (max-width: 440px) {
@@ -223,6 +233,10 @@ footer {
         width: 300px;
         min-width: 0;
         padding: 0 10px;
+    }
+
+    .ale {
+        margin-left: 5%;
     }
 
     button {
